@@ -2,6 +2,8 @@ set clipboard+=unnamed
 set highlightedyank
 set nerdtree
 set visualbell
+set easymotion
+set notimeout
 
 let mapleader = " "
 
@@ -18,3 +20,10 @@ nmap <leader>p <Action>(ReformatCode)
 map <leader>re <Action>(RenameElement)
 map <leader>run <Action>(RunClass)
 map <leader>debug <Action>(DebugClass)
+map <leader>look <Action>(SelectInProjectView)
+map <leader>point <Action>(ToggleLineBreakpoint)
+map <leader>go <Action>(Resume)
+map <leader>over <Action>(StepOver)
+map <leader>stop <Action>(Stop)
+map <leader>into <Action>(StepInto)
+map <leader>j <Plug>(easymotion-s)

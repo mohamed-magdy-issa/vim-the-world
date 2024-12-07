@@ -8,6 +8,9 @@ filetype plugin on
 " enable fuzzy file search
 set path+=**
 
+" enable realtive line number for jumping with <number><j-k>
+set relativenumber
+
 " set wild tab
 set wildmenu
 

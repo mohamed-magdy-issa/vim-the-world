@@ -4,7 +4,7 @@ set nerdtree
 set visualbell
 set easymotion
 set notimeout
-
+set relativenumber
 let mapleader = " "
 
 inoremap kj <Esc>
@@ -19,11 +19,16 @@ nmap <leader>gi <Action>(GotoImplementation)
 nmap <leader>p <Action>(ReformatCode)
 map <leader>re <Action>(RenameElement)
 map <leader>run <Action>(RunClass)
-map <leader>debug <Action>(DebugClass)
-map <leader>look <Action>(SelectInProjectView)
-map <leader>point <Action>(ToggleLineBreakpoint)
-map <leader>go <Action>(Resume)
-map <leader>over <Action>(StepOver)
 map <leader>stop <Action>(Stop)
-map <leader>into <Action>(StepInto)
+map <leader>debug <Action>(DebugClass)
+map <leader>lk <Action>(SelectInProjectView)
+
+#debugging
+map <leader>dp <Action>(ToggleLineBreakpoint)
+map <leader>dg <Action>(Resume)
+map <leader>do <Action>(StepOver)
+map <leader>di <Action>(StepInto)
+
+#easymotion
 map <leader>j <Plug>(easymotion-s)
+

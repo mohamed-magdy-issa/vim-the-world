@@ -11,6 +11,14 @@ set path+=**
 " enable realtive line number for jumping with <number><j-k>
 set relativenumber
 
+" set system clipboard to be vim clipboard
+set clipboard+=unnamed 
+
+" make default for delete and change into the black hole register
+nnoremap d "_d
+nnoremap c "_c
+
+
 " set wild tab
 set wildmenu
 

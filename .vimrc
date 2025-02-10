@@ -14,7 +14,7 @@ set relativenumber
 " set system clipboard to be vim clipboard
 set clipboard+=unnamed 
 
-" make default for delete and change into the black hole register
+" make default for change into the black hole register
 nnoremap c "_c
 
 

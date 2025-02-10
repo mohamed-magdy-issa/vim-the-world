@@ -10,6 +10,9 @@ set ignorecase
 set smartcase
 let mapleader = " "
 
+" make default for change into the black hole register
+nnoremap c "_c
+
 inoremap kj <Esc>
 
 nnoremap <S-l> :tabnext<CR>
@@ -37,3 +40,4 @@ map <leader>di <Action>(StepInto)
 
 #easymotion
 map <leader>j <Plug>(easymotion-s)
+

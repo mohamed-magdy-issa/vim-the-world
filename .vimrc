@@ -15,7 +15,6 @@ set relativenumber
 set clipboard+=unnamed 
 
 " make default for delete and change into the black hole register
-nnoremap d "_d
 nnoremap c "_c
 
 
@@ -32,3 +31,4 @@ let g:netrw_altv=1		" open splits to the right
 let g:netrw_liststyle=3		" tree view
 let g:netrw_list_hide=netrw_gitignore#Hide()
 let g:netrw_list_hide.=',\(^\|\s\s\)\zs\.\S\+'
+

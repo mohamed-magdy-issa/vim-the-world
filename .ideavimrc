@@ -13,8 +13,11 @@ let mapleader = " "
 " make default for change into the black hole register
 nnoremap c "_c
 
-inoremap kj <Esc>
 
+" Minimal number of screen lines to keep above and below the cursor
+set scrolloff=5
+
+" Switch between open tabs left and right
 nnoremap <S-l> :tabnext<CR>
 nnoremap <S-h> :tabprev<CR>
 
@@ -40,4 +43,3 @@ map <leader>di <Action>(StepInto)
 
 #easymotion
 map <leader>j <Plug>(easymotion-s)
-
